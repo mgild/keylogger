@@ -1,0 +1,4 @@
+#!/bin/bash
+echo yes > update
+sleep 62
+echo no > update

